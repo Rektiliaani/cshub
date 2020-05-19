@@ -18,20 +18,20 @@ Misc:
 <div>
 </div>
 <a>
-	sv_cheats 1;
-	sv_infinite_ammo 1;
-	god;
-	sv_showimpacts 1;
-	noclip;
-	mp_limitteams 0;
-	mp_autokick 0;
-	mp_autoteambalance 0;
-	mp_freezetime 0;
-	m_rawinput "1";
-	cl_cmdrate "128";
-	cl_updaterate "128";
-	fps_max 0;
-	r_drawtracers_firstperson "0";
+	sv_cheats 1; <br/>
+	sv_infinite_ammo 1;<br/>
+	god;<br/>
+	sv_showimpacts 1;<br/>
+	noclip;<br/>
+	mp_limitteams 0;<br/>
+	mp_autokick 0;<br/>
+	mp_autoteambalance 0;<br/>
+	mp_freezetime 0;<br/>
+	m_rawinput "1";<br/>
+	cl_cmdrate "128";<br/>
+	cl_updaterate "128";<br/>
+	fps_max 0;<br/>
+	r_drawtracers_firstperson "0";<br/>
 </a>
 <div>
 </div>
@@ -42,11 +42,11 @@ Bots:
 <div>
 </div>
 <a>
-	bot_add;
-	bot_add_t;
-	bot_add_ct;
-	bot_kick;
-	bot_stop;
+	bot_add;<br/>
+	bot_add_t;<br/>
+	bot_add_ct;<br/>
+	bot_kick;<br/>
+	bot_stop;<br/>
 </a>
 <div>
 </div>
@@ -57,11 +57,11 @@ Nades:
 <div>
 </div>
 <a>
-	give weapon_hegrenade;
-	give weapon_molotov;
-	give weapon_flashbang;
-	give weapon_smokegrenade;
-	give weapon_decoy;
+	give weapon_hegrenade;<br/>
+	give weapon_molotov;<br/>
+	give weapon_flashbang;<br/>
+	give weapon_smokegrenade;<br/>
+	give weapon_decoy;<br/>
 </a>
 <div>
 </div>
@@ -71,13 +71,13 @@ Practice:
 <div>
 </div>
 <a>
-	sv_grenade_trajectory 1;
-	sv_showimpacts 1;
-	give weapon_flashbang;
-	give weapon_smokegrenade;
-	give weapon_decoy;
-	cl_grenadepreview 1;
-	sv_rethrow_last_grenade;	
+	sv_grenade_trajectory 1;<br/>
+	sv_showimpacts 1;<br/>
+	give weapon_flashbang;<br/>
+	give weapon_smokegrenade;<br/>
+	give weapon_decoy;<br/>
+	cl_grenadepreview 1;<br/>
+	sv_rethrow_last_grenade;<br/>
 </a>
 <h3>
 Aliases & binds:
@@ -85,12 +85,37 @@ Aliases & binds:
 <div>
 </div>
 <a>
-	alias "+jumpthrow" "+jump;-attack";
-	alias "-jumpthrow" "-jump";
-	bind "bind key" "+jumpthrow";
-
-	bind "bind key" "cl_sim_grenade_trajectory 10";
+Jump throw:
 </a>
+<br/>
+<a>
+	alias "+jumpthrow" "+jump;-attack";<br/>
+	alias "-jumpthrow" "-jump";<br/>
+	bind "bind key" "+jumpthrow";<br/>
+<br/>
+
+	bind "bind key" "cl_sim_grenade_trajectory 10";<br/>
+<br/>
+</a>
+<a>
+Bhop (auto):
+</a>
+<br/>
+	sv_enablebunnyhopping 1;<br/>
+	sv_autobunnyhopping 1;<br/>
+	sv_staminamax 0;<br/>
+	sv_staminajumpcost 0;<br/>
+	sv_staminalandcost 0;<br/>
+	sv_staminarecoveryrate 0;<br/>
+	sv_airaccelerate 2000;<br/>
+	sv_accelerate_use_weapon_speed 0;<br/>
+	sv_maxvelocity 3500;<br/>
+<a>
+<br/>
+Bhop (scroll):
+</a>
+<br/>
+bind mwheelup +jump;bind mwheeldown +jump;bind space +jump;<br/>
 <div>
 </div>
 
