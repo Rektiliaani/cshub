@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-  width:80%;
+  width:95%;
     margin:auto;
   overflow:hidden;
 }
@@ -84,7 +84,6 @@ header{
 
 
 footer{
-  padding:20px;
   text-align: center;
   margin-top:50px;
   color:#ffffff;
