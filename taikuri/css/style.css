@@ -145,13 +145,13 @@ header{
     -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.1); 
 }
-#boxesr .boxr img{
+#container .boxr img{
   width:100px;
   -webkit-animation: rotation 7s infinite linear;
   
 }
 .boxr img{
-@-webkit-keyframes rotation {
+	-webkit-keyframes rotation {
 		from {
 				-webkit-transform: rotate(0deg);
 		}
@@ -225,3 +225,15 @@ input[type=submit]:hover {
   clear: both;
 }
 
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
